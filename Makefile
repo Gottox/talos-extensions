@@ -17,7 +17,7 @@ GOARCH := amd64
 endif
 
 # keep in sync with Pkgfile
-BLDR_RELEASE ?= v0.2.0
+BLDR_RELEASE ?= v0.2.1
 PKGS ?= v1.5.0-1-g8a2227d
 
 BUILD := docker buildx build
